@@ -19,6 +19,11 @@ class ViewController: UIViewController {
     
     var warizan = 0
     
+    var kazu = "かずき"
+    
+    var kimu = "きむら"
+    
+    var result = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +52,7 @@ class ViewController: UIViewController {
         warizan = warizan / 2
     
         
-        
+        result = kimu + kazu
     }
 
 
