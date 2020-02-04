@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15FC4B3721E4CE740019EDA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC4B3621E4CE740019EDA7 /* AppDelegate.swift */; };
+		15FC4B3921E4CE740019EDA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC4B3821E4CE740019EDA7 /* ViewController.swift */; };
+		15FC4B3E21E4CE750019EDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FC4B3D21E4CE750019EDA7 /* Assets.xcassets */; };
+		15FC4B4A21E4CEA10019EDA7 /* jankenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC4B4821E4CEA10019EDA7 /* jankenViewController.swift */; };
+		15FC4B4B21E4CEA10019EDA7 /* jankenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FC4B4921E4CEA10019EDA7 /* jankenViewController.xib */; };
+		15FC4B4E21E4CEB00019EDA7 /* victoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC4B4C21E4CEB00019EDA7 /* victoryViewController.swift */; };
+		15FC4B4F21E4CEB00019EDA7 /* victoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FC4B4D21E4CEB00019EDA7 /* victoryViewController.xib */; };
+		15FC4B5221E4CEC50019EDA7 /* drawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC4B5021E4CEC50019EDA7 /* drawViewController.swift */; };
+		15FC4B5321E4CEC50019EDA7 /* drawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FC4B5121E4CEC50019EDA7 /* drawViewController.xib */; };
+		15FC4B5621E4CED40019EDA7 /* loseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC4B5421E4CED40019EDA7 /* loseViewController.swift */; };
+		15FC4B5721E4CED40019EDA7 /* loseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FC4B5521E4CED40019EDA7 /* loseViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15FC4B3321E4CE740019EDA7 /* jankenApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jankenApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FC4B3621E4CE740019EDA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15FC4B3821E4CE740019EDA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15FC4B3D21E4CE750019EDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15FC4B4221E4CE750019EDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FC4B4821E4CEA10019EDA7 /* jankenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jankenViewController.swift; sourceTree = "<group>"; };
+		15FC4B4921E4CEA10019EDA7 /* jankenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = jankenViewController.xib; sourceTree = "<group>"; };
+		15FC4B4C21E4CEB00019EDA7 /* victoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = victoryViewController.swift; sourceTree = "<group>"; };
+		15FC4B4D21E4CEB00019EDA7 /* victoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = victoryViewController.xib; sourceTree = "<group>"; };
+		15FC4B5021E4CEC50019EDA7 /* drawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawViewController.swift; sourceTree = "<group>"; };
+		15FC4B5121E4CEC50019EDA7 /* drawViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = drawViewController.xib; sourceTree = "<group>"; };
+		15FC4B5421E4CED40019EDA7 /* loseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loseViewController.swift; sourceTree = "<group>"; };
+		15FC4B5521E4CED40019EDA7 /* loseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loseViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15FC4B3021E4CE740019EDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15FC4B2A21E4CE740019EDA7 = {
+			isa = PBXGroup;
+			children = (
+				15FC4B3521E4CE740019EDA7 /* jankenApp3 */,
+				15FC4B3421E4CE740019EDA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15FC4B3421E4CE740019EDA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15FC4B3321E4CE740019EDA7 /* jankenApp3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15FC4B3521E4CE740019EDA7 /* jankenApp3 */ = {
+			isa = PBXGroup;
+			children = (
+				15FC4B3621E4CE740019EDA7 /* AppDelegate.swift */,
+				15FC4B3821E4CE740019EDA7 /* ViewController.swift */,
+				15FC4B3D21E4CE750019EDA7 /* Assets.xcassets */,
+				15FC4B4221E4CE750019EDA7 /* Info.plist */,
+				15FC4B4821E4CEA10019EDA7 /* jankenViewController.swift */,
+				15FC4B4921E4CEA10019EDA7 /* jankenViewController.xib */,
+				15FC4B4C21E4CEB00019EDA7 /* victoryViewController.swift */,
+				15FC4B4D21E4CEB00019EDA7 /* victoryViewController.xib */,
+				15FC4B5021E4CEC50019EDA7 /* drawViewController.swift */,
+				15FC4B5121E4CEC50019EDA7 /* drawViewController.xib */,
+				15FC4B5421E4CED40019EDA7 /* loseViewController.swift */,
+				15FC4B5521E4CED40019EDA7 /* loseViewController.xib */,
+			);
+			path = jankenApp3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15FC4B3221E4CE740019EDA7 /* jankenApp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FC4B4521E4CE750019EDA7 /* Build configuration list for PBXNativeTarget "jankenApp3" */;
+			buildPhases = (
+				15FC4B2F21E4CE740019EDA7 /* Sources */,
+				15FC4B3021E4CE740019EDA7 /* Frameworks */,
+				15FC4B3121E4CE740019EDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jankenApp3;
+			productName = jankenApp3;
+			productReference = 15FC4B3321E4CE740019EDA7 /* jankenApp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15FC4B2B21E4CE740019EDA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "kazuki kimura";
+				TargetAttributes = {
+					15FC4B3221E4CE740019EDA7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 15FC4B2E21E4CE740019EDA7 /* Build configuration list for PBXProject "jankenApp3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15FC4B2A21E4CE740019EDA7;
+			productRefGroup = 15FC4B3421E4CE740019EDA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15FC4B3221E4CE740019EDA7 /* jankenApp3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15FC4B3121E4CE740019EDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FC4B5321E4CEC50019EDA7 /* drawViewController.xib in Resources */,
+				15FC4B3E21E4CE750019EDA7 /* Assets.xcassets in Resources */,
+				15FC4B4B21E4CEA10019EDA7 /* jankenViewController.xib in Resources */,
+				15FC4B5721E4CED40019EDA7 /* loseViewController.xib in Resources */,
+				15FC4B4F21E4CEB00019EDA7 /* victoryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15FC4B2F21E4CE740019EDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FC4B5221E4CEC50019EDA7 /* drawViewController.swift in Sources */,
+				15FC4B5621E4CED40019EDA7 /* loseViewController.swift in Sources */,
+				15FC4B4A21E4CEA10019EDA7 /* jankenViewController.swift in Sources */,
+				15FC4B4E21E4CEB00019EDA7 /* victoryViewController.swift in Sources */,
+				15FC4B3921E4CE740019EDA7 /* ViewController.swift in Sources */,
+				15FC4B3721E4CE740019EDA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15FC4B4321E4CE750019EDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15FC4B4421E4CE750019EDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15FC4B4621E4CE750019EDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jankenApp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazuudemy.jankenApp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15FC4B4721E4CE750019EDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jankenApp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazuudemy.jankenApp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15FC4B2E21E4CE740019EDA7 /* Build configuration list for PBXProject "jankenApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FC4B4321E4CE750019EDA7 /* Debug */,
+				15FC4B4421E4CE750019EDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FC4B4521E4CE750019EDA7 /* Build configuration list for PBXNativeTarget "jankenApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FC4B4621E4CE750019EDA7 /* Debug */,
+				15FC4B4721E4CE750019EDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15FC4B2B21E4CE740019EDA7 /* Project object */;
+}
