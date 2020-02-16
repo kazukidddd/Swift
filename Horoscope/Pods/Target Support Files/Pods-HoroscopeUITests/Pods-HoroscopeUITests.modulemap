@@ -1,0 +1,6 @@
+framework module Pods_HoroscopeUITests {
+  umbrella header "Pods-HoroscopeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

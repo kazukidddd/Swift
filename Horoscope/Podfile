@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Horoscope' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Horoscope
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+
+  target 'HoroscopeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HoroscopeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
