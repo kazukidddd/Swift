@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Trf-ZW-ZVZ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--計算機アプリ-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPL-tA-LwY">
+                                <rect key="frame" x="30" y="424" width="354" height="48"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="計算">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapCalculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ph2-0e-tOo"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Kfo-pH-lut">
+                                <rect key="frame" x="30" y="373" width="354" height="32"/>
+                                <segments>
+                                    <segment title="足し算"/>
+                                    <segment title="引き算"/>
+                                    <segment title="掛け算"/>
+                                    <segment title="割り算"/>
+                                </segments>
+                            </segmentedControl>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gRd-bG-JFi">
+                                <rect key="frame" x="30" y="245" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="68q-f3-OgI">
+                                <rect key="frame" x="30" y="309" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="結果は..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HU9-Jm-B2y">
+                                <rect key="frame" x="30" y="179" width="354" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BPL-tA-LwY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1gG-mn-czv"/>
+                            <constraint firstItem="Kfo-pH-lut" firstAttribute="top" secondItem="68q-f3-OgI" secondAttribute="bottom" constant="30" id="4pI-VX-8un"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BPL-tA-LwY" secondAttribute="trailing" constant="30" id="7EU-I5-anQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kfo-pH-lut" secondAttribute="trailing" constant="30" id="ASb-j7-IFF"/>
+                            <constraint firstItem="HU9-Jm-B2y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="E9F-cN-J7I"/>
+                            <constraint firstItem="gRd-bG-JFi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="KXh-rW-umW"/>
+                            <constraint firstItem="BPL-tA-LwY" firstAttribute="top" secondItem="Kfo-pH-lut" secondAttribute="bottom" constant="20" id="Otf-Y6-Xd9"/>
+                            <constraint firstItem="BPL-tA-LwY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="T7Q-RN-XpH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="68q-f3-OgI" secondAttribute="trailing" constant="30" id="Wg2-17-Hdr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gRd-bG-JFi" secondAttribute="trailing" constant="30" id="e2P-3T-xBT"/>
+                            <constraint firstItem="68q-f3-OgI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="e7L-fB-1aI"/>
+                            <constraint firstItem="BPL-tA-LwY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="eNW-hS-umP"/>
+                            <constraint firstItem="Kfo-pH-lut" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="oJZ-mS-59b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HU9-Jm-B2y" secondAttribute="trailing" constant="30" id="ugv-Xb-Ont"/>
+                            <constraint firstItem="68q-f3-OgI" firstAttribute="top" secondItem="gRd-bG-JFi" secondAttribute="bottom" constant="30" id="xGR-Ru-l9X"/>
+                            <constraint firstItem="gRd-bG-JFi" firstAttribute="top" secondItem="HU9-Jm-B2y" secondAttribute="bottom" constant="30" id="yr7-d2-YAh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="計算機アプリ" id="ou1-4l-bmX"/>
+                    <connections>
+                        <outlet property="firstText" destination="gRd-bG-JFi" id="tfA-cW-caW"/>
+                        <outlet property="resultText" destination="HU9-Jm-B2y" id="EEv-8p-Z5J"/>
+                        <outlet property="secondText" destination="68q-f3-OgI" id="3al-gP-0v1"/>
+                        <outlet property="segmentedcontrol" destination="Kfo-pH-lut" id="KV3-M9-ZSQ"/>
+                        <segue destination="bfZ-Ba-hLz" kind="show" identifier="ResultSegue" id="isb-cn-nRP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="117.85714285714285"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="PCr-bE-ZQQ">
+            <objects>
+                <viewController id="bfZ-Ba-hLz" customClass="ResultViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K3V-TE-fmO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="結果は..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ymh-cU-XqT">
+                                <rect key="frame" x="112" y="418" width="190" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ymh-cU-XqT" firstAttribute="centerY" secondItem="K3V-TE-fmO" secondAttribute="centerY" id="Ihg-GS-r6b"/>
+                            <constraint firstItem="Ymh-cU-XqT" firstAttribute="centerX" secondItem="K3V-TE-fmO" secondAttribute="centerX" id="pbp-Wv-Sqj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ksX-uf-n5r"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Up-f4-Vwd"/>
+                    <connections>
+                        <outlet property="resultLabel" destination="Ymh-cU-XqT" id="zyq-HC-2vs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7dh-Sk-AqF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1929" y="118"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nbM-cI-SoQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Trf-ZW-ZVZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RTW-0D-2Tc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="aTu-my-uxw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cLg-ti-0Mz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+</document>
