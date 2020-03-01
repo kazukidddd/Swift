@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15E7D52D240B47CB00998234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D52C240B47CB00998234 /* AppDelegate.swift */; };
+		15E7D52F240B47CB00998234 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D52E240B47CB00998234 /* SceneDelegate.swift */; };
+		15E7D531240B47CB00998234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D530240B47CB00998234 /* ViewController.swift */; };
+		15E7D534240B47CB00998234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E7D532240B47CB00998234 /* Main.storyboard */; };
+		15E7D537240B47CB00998234 /* TableViewPracticeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D535240B47CB00998234 /* TableViewPracticeApp.xcdatamodeld */; };
+		15E7D539240B47D000998234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E7D538240B47D000998234 /* Assets.xcassets */; };
+		15E7D53C240B47D000998234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E7D53A240B47D000998234 /* LaunchScreen.storyboard */; };
+		15E7D547240B47D000998234 /* TableViewPracticeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D546240B47D000998234 /* TableViewPracticeAppTests.swift */; };
+		15E7D552240B47D000998234 /* TableViewPracticeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D551240B47D000998234 /* TableViewPracticeAppUITests.swift */; };
+		15E7D564240B4B8600998234 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D563240B4B8600998234 /* Person.swift */; };
+		15E7D565240B4B8600998234 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D563240B4B8600998234 /* Person.swift */; };
+		15E7D566240B4B8600998234 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D563240B4B8600998234 /* Person.swift */; };
+		15E7D568240B4B9900998234 /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D567240B4B9900998234 /* PersonList.swift */; };
+		15E7D569240B4B9900998234 /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D567240B4B9900998234 /* PersonList.swift */; };
+		15E7D56A240B4B9900998234 /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D567240B4B9900998234 /* PersonList.swift */; };
+		15E7D56C240B4BBE00998234 /* PersonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D56B240B4BBE00998234 /* PersonStore.swift */; };
+		15E7D56D240B4BBE00998234 /* PersonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D56B240B4BBE00998234 /* PersonStore.swift */; };
+		15E7D56E240B4BBE00998234 /* PersonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D56B240B4BBE00998234 /* PersonStore.swift */; };
+		15E7D570240BAEF200998234 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E7D56F240BAEF200998234 /* TableViewCell.xib */; };
+		15E7D571240BAEF200998234 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E7D56F240BAEF200998234 /* TableViewCell.xib */; };
+		15E7D572240BAEF200998234 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E7D56F240BAEF200998234 /* TableViewCell.xib */; };
+		15E7D574240BAFE900998234 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D573240BAFE900998234 /* TableViewCell.swift */; };
+		15E7D575240BAFE900998234 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D573240BAFE900998234 /* TableViewCell.swift */; };
+		15E7D576240BAFE900998234 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D573240BAFE900998234 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15E7D543240B47D000998234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15E7D521240B47CB00998234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E7D528240B47CB00998234;
+			remoteInfo = TableViewPracticeApp;
+		};
+		15E7D54E240B47D000998234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15E7D521240B47CB00998234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E7D528240B47CB00998234;
+			remoteInfo = TableViewPracticeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15E7D529240B47CB00998234 /* TableViewPracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E7D52C240B47CB00998234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15E7D52E240B47CB00998234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15E7D530240B47CB00998234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15E7D533240B47CB00998234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15E7D536240B47CB00998234 /* TableViewPracticeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableViewPracticeApp.xcdatamodel; sourceTree = "<group>"; };
+		15E7D538240B47D000998234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15E7D53B240B47D000998234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15E7D53D240B47D000998234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E7D542240B47D000998234 /* TableViewPracticeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPracticeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E7D546240B47D000998234 /* TableViewPracticeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPracticeAppTests.swift; sourceTree = "<group>"; };
+		15E7D548240B47D000998234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E7D54D240B47D000998234 /* TableViewPracticeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPracticeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E7D551240B47D000998234 /* TableViewPracticeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPracticeAppUITests.swift; sourceTree = "<group>"; };
+		15E7D553240B47D000998234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E7D563240B4B8600998234 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		15E7D567240B4B9900998234 /* PersonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonList.swift; sourceTree = "<group>"; };
+		15E7D56B240B4BBE00998234 /* PersonStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonStore.swift; sourceTree = "<group>"; };
+		15E7D56F240BAEF200998234 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		15E7D573240BAFE900998234 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15E7D526240B47CB00998234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E7D53F240B47D000998234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E7D54A240B47D000998234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15E7D520240B47CB00998234 = {
+			isa = PBXGroup;
+			children = (
+				15E7D52B240B47CB00998234 /* TableViewPracticeApp */,
+				15E7D545240B47D000998234 /* TableViewPracticeAppTests */,
+				15E7D550240B47D000998234 /* TableViewPracticeAppUITests */,
+				15E7D52A240B47CB00998234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15E7D52A240B47CB00998234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15E7D529240B47CB00998234 /* TableViewPracticeApp.app */,
+				15E7D542240B47D000998234 /* TableViewPracticeAppTests.xctest */,
+				15E7D54D240B47D000998234 /* TableViewPracticeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15E7D52B240B47CB00998234 /* TableViewPracticeApp */ = {
+			isa = PBXGroup;
+			children = (
+				15E7D52C240B47CB00998234 /* AppDelegate.swift */,
+				15E7D52E240B47CB00998234 /* SceneDelegate.swift */,
+				15E7D530240B47CB00998234 /* ViewController.swift */,
+				15E7D532240B47CB00998234 /* Main.storyboard */,
+				15E7D538240B47D000998234 /* Assets.xcassets */,
+				15E7D53A240B47D000998234 /* LaunchScreen.storyboard */,
+				15E7D53D240B47D000998234 /* Info.plist */,
+				15E7D535240B47CB00998234 /* TableViewPracticeApp.xcdatamodeld */,
+				15E7D563240B4B8600998234 /* Person.swift */,
+				15E7D567240B4B9900998234 /* PersonList.swift */,
+				15E7D56B240B4BBE00998234 /* PersonStore.swift */,
+				15E7D56F240BAEF200998234 /* TableViewCell.xib */,
+				15E7D573240BAFE900998234 /* TableViewCell.swift */,
+			);
+			path = TableViewPracticeApp;
+			sourceTree = "<group>";
+		};
+		15E7D545240B47D000998234 /* TableViewPracticeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				15E7D546240B47D000998234 /* TableViewPracticeAppTests.swift */,
+				15E7D548240B47D000998234 /* Info.plist */,
+			);
+			path = TableViewPracticeAppTests;
+			sourceTree = "<group>";
+		};
+		15E7D550240B47D000998234 /* TableViewPracticeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15E7D551240B47D000998234 /* TableViewPracticeAppUITests.swift */,
+				15E7D553240B47D000998234 /* Info.plist */,
+			);
+			path = TableViewPracticeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15E7D528240B47CB00998234 /* TableViewPracticeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E7D556240B47D000998234 /* Build configuration list for PBXNativeTarget "TableViewPracticeApp" */;
+			buildPhases = (
+				15E7D525240B47CB00998234 /* Sources */,
+				15E7D526240B47CB00998234 /* Frameworks */,
+				15E7D527240B47CB00998234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewPracticeApp;
+			productName = TableViewPracticeApp;
+			productReference = 15E7D529240B47CB00998234 /* TableViewPracticeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15E7D541240B47D000998234 /* TableViewPracticeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E7D559240B47D000998234 /* Build configuration list for PBXNativeTarget "TableViewPracticeAppTests" */;
+			buildPhases = (
+				15E7D53E240B47D000998234 /* Sources */,
+				15E7D53F240B47D000998234 /* Frameworks */,
+				15E7D540240B47D000998234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15E7D544240B47D000998234 /* PBXTargetDependency */,
+			);
+			name = TableViewPracticeAppTests;
+			productName = TableViewPracticeAppTests;
+			productReference = 15E7D542240B47D000998234 /* TableViewPracticeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15E7D54C240B47D000998234 /* TableViewPracticeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E7D55C240B47D000998234 /* Build configuration list for PBXNativeTarget "TableViewPracticeAppUITests" */;
+			buildPhases = (
+				15E7D549240B47D000998234 /* Sources */,
+				15E7D54A240B47D000998234 /* Frameworks */,
+				15E7D54B240B47D000998234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15E7D54F240B47D000998234 /* PBXTargetDependency */,
+			);
+			name = TableViewPracticeAppUITests;
+			productName = TableViewPracticeAppUITests;
+			productReference = 15E7D54D240B47D000998234 /* TableViewPracticeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15E7D521240B47CB00998234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "kazuki kimura";
+				TargetAttributes = {
+					15E7D528240B47CB00998234 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					15E7D541240B47D000998234 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 15E7D528240B47CB00998234;
+					};
+					15E7D54C240B47D000998234 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 15E7D528240B47CB00998234;
+					};
+				};
+			};
+			buildConfigurationList = 15E7D524240B47CB00998234 /* Build configuration list for PBXProject "TableViewPracticeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15E7D520240B47CB00998234;
+			productRefGroup = 15E7D52A240B47CB00998234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15E7D528240B47CB00998234 /* TableViewPracticeApp */,
+				15E7D541240B47D000998234 /* TableViewPracticeAppTests */,
+				15E7D54C240B47D000998234 /* TableViewPracticeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15E7D527240B47CB00998234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E7D53C240B47D000998234 /* LaunchScreen.storyboard in Resources */,
+				15E7D570240BAEF200998234 /* TableViewCell.xib in Resources */,
+				15E7D539240B47D000998234 /* Assets.xcassets in Resources */,
+				15E7D534240B47CB00998234 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E7D540240B47D000998234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E7D571240BAEF200998234 /* TableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E7D54B240B47D000998234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E7D572240BAEF200998234 /* TableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15E7D525240B47CB00998234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E7D564240B4B8600998234 /* Person.swift in Sources */,
+				15E7D574240BAFE900998234 /* TableViewCell.swift in Sources */,
+				15E7D537240B47CB00998234 /* TableViewPracticeApp.xcdatamodeld in Sources */,
+				15E7D531240B47CB00998234 /* ViewController.swift in Sources */,
+				15E7D52D240B47CB00998234 /* AppDelegate.swift in Sources */,
+				15E7D568240B4B9900998234 /* PersonList.swift in Sources */,
+				15E7D56C240B4BBE00998234 /* PersonStore.swift in Sources */,
+				15E7D52F240B47CB00998234 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E7D53E240B47D000998234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E7D575240BAFE900998234 /* TableViewCell.swift in Sources */,
+				15E7D56D240B4BBE00998234 /* PersonStore.swift in Sources */,
+				15E7D565240B4B8600998234 /* Person.swift in Sources */,
+				15E7D569240B4B9900998234 /* PersonList.swift in Sources */,
+				15E7D547240B47D000998234 /* TableViewPracticeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E7D549240B47D000998234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E7D576240BAFE900998234 /* TableViewCell.swift in Sources */,
+				15E7D56E240B4BBE00998234 /* PersonStore.swift in Sources */,
+				15E7D566240B4B8600998234 /* Person.swift in Sources */,
+				15E7D56A240B4B9900998234 /* PersonList.swift in Sources */,
+				15E7D552240B47D000998234 /* TableViewPracticeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15E7D544240B47D000998234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E7D528240B47CB00998234 /* TableViewPracticeApp */;
+			targetProxy = 15E7D543240B47D000998234 /* PBXContainerItemProxy */;
+		};
+		15E7D54F240B47D000998234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E7D528240B47CB00998234 /* TableViewPracticeApp */;
+			targetProxy = 15E7D54E240B47D000998234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15E7D532240B47CB00998234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E7D533240B47CB00998234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15E7D53A240B47D000998234 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E7D53B240B47D000998234 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15E7D554240B47D000998234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15E7D555240B47D000998234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15E7D557240B47D000998234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AT94S9CG6T;
+				INFOPLIST_FILE = TableViewPracticeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazu.TableViewPracticeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15E7D558240B47D000998234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AT94S9CG6T;
+				INFOPLIST_FILE = TableViewPracticeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazu.TableViewPracticeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15E7D55A240B47D000998234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AT94S9CG6T;
+				INFOPLIST_FILE = TableViewPracticeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazu.TableViewPracticeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewPracticeApp.app/TableViewPracticeApp";
+			};
+			name = Debug;
+		};
+		15E7D55B240B47D000998234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AT94S9CG6T;
+				INFOPLIST_FILE = TableViewPracticeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazu.TableViewPracticeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewPracticeApp.app/TableViewPracticeApp";
+			};
+			name = Release;
+		};
+		15E7D55D240B47D000998234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AT94S9CG6T;
+				INFOPLIST_FILE = TableViewPracticeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazu.TableViewPracticeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableViewPracticeApp;
+			};
+			name = Debug;
+		};
+		15E7D55E240B47D000998234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AT94S9CG6T;
+				INFOPLIST_FILE = TableViewPracticeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazu.TableViewPracticeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableViewPracticeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15E7D524240B47CB00998234 /* Build configuration list for PBXProject "TableViewPracticeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E7D554240B47D000998234 /* Debug */,
+				15E7D555240B47D000998234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E7D556240B47D000998234 /* Build configuration list for PBXNativeTarget "TableViewPracticeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E7D557240B47D000998234 /* Debug */,
+				15E7D558240B47D000998234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E7D559240B47D000998234 /* Build configuration list for PBXNativeTarget "TableViewPracticeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E7D55A240B47D000998234 /* Debug */,
+				15E7D55B240B47D000998234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E7D55C240B47D000998234 /* Build configuration list for PBXNativeTarget "TableViewPracticeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E7D55D240B47D000998234 /* Debug */,
+				15E7D55E240B47D000998234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15E7D535240B47CB00998234 /* TableViewPracticeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15E7D536240B47CB00998234 /* TableViewPracticeApp.xcdatamodel */,
+			);
+			currentVersion = 15E7D536240B47CB00998234 /* TableViewPracticeApp.xcdatamodel */;
+			path = TableViewPracticeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15E7D521240B47CB00998234 /* Project object */;
+}
